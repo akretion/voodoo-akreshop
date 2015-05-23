@@ -13,3 +13,11 @@ odoo:
   ports:
     - "8069:8069"
     - "8072:8072"
+  links:
+    - solr
+solr:
+  image: makuk66/docker-solr
+  volumes:
+    - solr/akreshop:/opt/solr/server/solr/akreshop
+  ports:
+    - "8983:8983"
