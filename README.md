@@ -1,3 +1,5 @@
-## Template for voodoo-cli
+## Voodoo Akreshop
 
-https://github.com/akretion/voodoo-cli
+Voodoo project for developping on akreshop
+
+Work in progress
