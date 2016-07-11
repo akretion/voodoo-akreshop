@@ -1,6 +1,6 @@
 version: '2'
 services:
   odoo:
-    image: akretion/voodoo:latest
+    build: .
     labels:
       main_service: "True"
