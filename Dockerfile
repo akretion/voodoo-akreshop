@@ -1,4 +1,7 @@
 FROM akretion/voodoo:latest
 USER root
-RUN apt-get install libffi-dev
+RUN DEBIAN_FRONTEND=noninteractive && \
+    apt-get update && \
+    apt-get install -y libffi-dev && \
+    apt-get clean
 USER odoo
